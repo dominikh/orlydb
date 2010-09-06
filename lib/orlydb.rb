@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 require "open-uri"
 require "nokogiri"
+require "cgi"
 
 require "orlydb/pre"
 module Orlydb
