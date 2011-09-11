@@ -7,4 +7,5 @@ spec = Gem::Specification.new do |s|
   s.email = ['dominikh@fork-bomb.org']
   s.homepage = 'http://fork-bomb.org'
   s.files = Dir['LICENSE', 'Rakefile', 'README.md', '{spec,lib,examples}/**/*']
+  s.add_dependency 'nokogiri'
 end
